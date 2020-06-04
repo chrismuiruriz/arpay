@@ -20,17 +20,19 @@
         <param name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes." />  
     </plugin> 
 
-
 <platform name="android">
 
+<preference name="SplashMaintainAspectRatio" value="true" />
+<preference name="ShowSplashScreenSpinner" value="false"/>
+
     <splash src="res/screen/android/splash-port-hdpi.png" density="port-hdpi" />
+    <splash src="res/screen/android/splash-port-ldpi.png" density="port-ldpi" />
     <splash src="res/screen/android/splash-port-mdpi.png" density="port-mdpi" />
     <splash src="res/screen/android/splash-port-xhdpi.png" density="port-xhdpi" />
     <splash src="res/screen/android/splash-port-xxhdpi.png" density="port-xxhdpi" />
     <splash src="res/screen/android/splash-port-xxxhdpi.png" density="port-xxxhdpi" /> 
 </platform>
 
-    
     <!-- Do not auto hide splash on iOS -->
     <preference name="AutoHideSplashScreen" value="false" />
     <!-- Do not auto hide splash on Android -->
