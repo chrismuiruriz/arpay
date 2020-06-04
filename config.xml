@@ -19,7 +19,15 @@
     <plugin spec="https://github.com/Telerik-Verified-Plugins/BarcodeScanner.git" source="git">  
         <param name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes." />  
     </plugin> 
-    
+
+<platform name="android">
+    <splash src="res/screen/android/mipmap-hdpi/ic_lancher.png" density="port-hdpi" />
+    <splash src="res/screen/android/mipmap-mdpi/ic_lancher.png" density="port-mdpi" />
+    <splash src="res/screen/android/mipmap-xdpi/ic_lancher.png" density="port-xhdpi" />
+    <splash src="res/screen/android/mipmap-xxdpi/ic_lancher.png" density="port-xxhdpi" />
+    <splash src="res/screen/android/mipmap-xxxdpi/ic_lancher.png" density="port-xxxhdpi" /> 
+</platform>
+
     <!-- Do not auto hide splash on iOS -->
     <preference name="AutoHideSplashScreen" value="false" />
     <!-- Do not auto hide splash on Android -->
