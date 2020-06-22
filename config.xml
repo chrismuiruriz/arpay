@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="ke.qrpay.payment" version="1.0.8" 
+<widget id="ke.qrpay.payment" version="1.0.9" 
     xmlns="http://www.w3.org/ns/widgets" 
     xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>QRPay</name>
@@ -54,6 +54,11 @@
 
     <!-- GPS Enabler Plugin -->
     <plugin name="cordova-plugin-request-location-accuracy"/>
+
+    <!-- A wildcard can be used to whitelist the entire network,
+     over HTTP and HTTPS.
+     *NOT RECOMMENDED* -->
+    <allow-navigation href="*" />
 
     <access origin="*" />
     <allow-intent href="http://*/*" />
