@@ -46,6 +46,8 @@
 
     <!-- <plugin name="cordova-plugin-privacyscreen" /> -->
 
+	<plugin name="cordova-plugin-inappbrowser" />
+
     <!-- Camera Plugin -->
     <plugin name="cordova-plugin-camera"/>
 
